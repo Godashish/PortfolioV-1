@@ -1,31 +1,29 @@
 # Portfolio Website v1
 
-Personal portfolio for **Ashish Poudel**, highlighting AI compliance, data annotation, and linguistic QA work. Built with plain HTML/CSS for easy deployment on GitHub Pages or any static host.
+Portfolio for **Ashish Poudel**, showcasing experience in AI compliance, data annotation, and linguistic QA. Built with vanilla HTML and CSS for straightforward hosting on GitHub Pages or any static provider.
 
 ## Features
-- Modern hero section with resume download, contact CTA, and quick stats.
-- Detailed sections for About, Experience, Focus Areas, Skills, Education, and Contact.
-- Responsive, glassmorphism-inspired styling with custom portrait display and downloadable resume.
+- Hero with resume download, email CTA, and quick stats.
+- Sections for About, Experience, Focus Areas, Skills, Education, and Contact.
+- Responsive, glass-inspired styling plus downloadable resume and portrait support.
 
 ## Getting Started
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Godashish/PortfolioV-1.git
-   ```
-2. Open `index.html` in a browser, or serve locally with any static server.
-3. Update content/links under `index.html` and tweak styles in `style.css` if needed.
+```bash
+git clone https://github.com/Godashish/PortfolioV-1.git
+cd PortfolioV-1
+```
+Then open `index.html` directly in your browser or run any local static server.
 
-## Deployment
-The site works out of the box on GitHub Pages:
+## Deployment (GitHub Pages)
 1. Push to `main`.
-2. In GitHub, go to **Settings → Pages → Deploy from Branch**.
-3. Select `main` and `/root`.
+2. In GitHub go to **Settings → Pages**.
+3. Choose **Deploy from a branch**, select `main` and `/root`.
 
 ## Assets
-All supporting files live in the `assets/` folder:
-- `Photo.jpg` — portrait used in the hero.
-- `resume.pdf` — downloadable resume.
-- Additional assets can be added as needed.
+All supporting files live in `assets/`:
+- `Photo.jpg` – hero portrait.
+- `resume.pdf` – downloadable resume.
+- Additional media or documents can be stored here.
 
 ---
-Version 1 shipped: `feat: release portfolio v1`
+Version 1 tag: `feat: release portfolio v1`
