@@ -401,6 +401,29 @@ h1, h2, h3, h4 { font-family: var(--display); font-weight: 500; line-height: 1.1
 }
 .project-main > p { color: var(--ink-mid); font-size: .95rem; }
 
+.findings {
+  display: grid;
+  gap: .1rem;
+  margin: 1.5rem 0 .5rem;
+  border-top: 1px solid var(--rule-soft);
+}
+.findings li {
+  font-size: .89rem;
+  line-height: 1.6;
+  color: var(--ink-mid);
+  padding: .78rem 0;
+  border-bottom: 1px solid var(--rule-soft);
+}
+.finding-mark {
+  display: block;
+  font-family: var(--mono);
+  font-size: .7rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--brass);
+  margin-bottom: .2rem;
+}
+
 .stack { display: flex; flex-wrap: wrap; gap: .4rem; margin: 1.25rem 0; }
 .stack li {
   font-family: var(--mono); font-size: .68rem;
